@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @fluxStyles
 </head>
 <body class="antialiased" style="background-color: #F9F7F2; font-family: 'Inter', sans-serif;">
 
@@ -49,9 +48,11 @@
 </header>
 
 {{-- ===== HERO ===== --}}
-<section class="relative overflow-hidden" style="background-color: #1A3C2E;">
-    {{-- Background texture --}}
-    <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(circle at 20% 50%, #D4A017 0%, transparent 50%), radial-gradient(circle at 80% 20%, #D4A017 0%, transparent 40%);"></div>
+<section class="relative overflow-hidden" style="background-color: #1A3C2E; background-image: url('/images/hero.jpg'); background-size: cover; background-position: center;">
+    {{-- Dark green overlay --}}
+    <div class="absolute inset-0" style="background-color: rgba(18, 43, 32, 0.85);"></div>
+    {{-- Gold accent glow --}}
+    <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 80% 20%, #D4A017 0%, transparent 40%);"></div>
 
     <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div class="max-w-3xl">
@@ -439,6 +440,5 @@
     </div>
 </footer>
 
-@fluxScripts
 </body>
 </html>
