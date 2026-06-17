@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Carolina Cashers | Check Cashing · Money Orders · Notary | Greenville, SC</title>
-    <meta name="description" content="Carolina Cashers in Greenville, SC offers fast check cashing, money orders, and notary services. No appointment needed. Open Mon–Sat 8am–7pm.">
+    <meta name="description" content="Carolina Cashers in Greenville, SC offers fast check cashing, money orders, and notary services. No appointment needed. Mon–Thu 9–5:30, Fri 9–6:30, Sat 9:30–5.">
     <meta property="og:title" content="Carolina Cashers | Greenville, SC">
     <meta property="og:description" content="Fast check cashing, money orders, and notary services in Greenville, SC. Walk in — walk out with cash.">
     <meta property="og:type" content="website">
@@ -211,7 +211,7 @@
 
             @php
             $steps = [
-                ['num' => '01', 'title' => 'Walk In', 'desc' => 'No appointment needed. Just come in during business hours — we\'re open Mon–Sat, 8am to 7pm.'],
+                ['num' => '01', 'title' => 'Walk In', 'desc' => 'No appointment needed. Mon–Thu 9–5:30, Fri 9–6:30, Sat 9:30–5. Just walk in.'],
                 ['num' => '02', 'title' => 'Show Your ID', 'desc' => 'Bring a valid government-issued photo ID and the check or document you need processed.'],
                 ['num' => '03', 'title' => 'Walk Out With Cash', 'desc' => 'We handle it quickly and professionally. You leave with what you came for, no hassle.'],
             ];
@@ -319,12 +319,12 @@
 
                     @php
                     $hours = [
-                        ['day' => 'Monday',    'open' => '8:00 AM', 'close' => '7:00 PM'],
-                        ['day' => 'Tuesday',   'open' => '8:00 AM', 'close' => '7:00 PM'],
-                        ['day' => 'Wednesday', 'open' => '8:00 AM', 'close' => '7:00 PM'],
-                        ['day' => 'Thursday',  'open' => '8:00 AM', 'close' => '7:00 PM'],
-                        ['day' => 'Friday',    'open' => '8:00 AM', 'close' => '7:00 PM'],
-                        ['day' => 'Saturday',  'open' => '8:00 AM', 'close' => '7:00 PM'],
+                        ['day' => 'Monday',    'open' => '9:00 AM', 'close' => '5:30 PM'],
+                        ['day' => 'Tuesday',   'open' => '9:00 AM', 'close' => '5:30 PM'],
+                        ['day' => 'Wednesday', 'open' => '9:00 AM', 'close' => '5:30 PM'],
+                        ['day' => 'Thursday',  'open' => '9:00 AM', 'close' => '5:30 PM'],
+                        ['day' => 'Friday',    'open' => '9:00 AM', 'close' => '6:30 PM'],
+                        ['day' => 'Saturday',  'open' => '9:30 AM', 'close' => '5:00 PM'],
                         ['day' => 'Sunday',    'open' => null,       'close' => null],
                     ];
                     @endphp
@@ -428,7 +428,9 @@
                     <p>3111 White Horse Rd</p>
                     <p>Greenville, SC 29611</p>
                     <a href="tel:8642698266" class="block hover:opacity-80" style="color: rgba(249,247,242,0.6);">(864) 269-8266</a>
-                    <p class="pt-2">Mon–Sat: 8:00 AM – 7:00 PM</p>
+                    <p class="pt-2">Mon–Thu: 9:00 AM – 5:30 PM</p>
+                    <p>Fri: 9:00 AM – 6:30 PM</p>
+                    <p>Sat: 9:30 AM – 5:00 PM</p>
                     <p>Sunday: Closed</p>
                 </div>
             </div>
